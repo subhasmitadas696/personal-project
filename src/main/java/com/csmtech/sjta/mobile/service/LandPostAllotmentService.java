@@ -1,0 +1,25 @@
+package com.csmtech.sjta.mobile.service;
+
+import com.csmtech.sjta.mobile.dto.LandPostAllotmentDto;
+import com.csmtech.sjta.mobile.dto.LandPostAllotmentResponseDto;
+
+public interface LandPostAllotmentService {
+
+	LandPostAllotmentResponseDto assignToCOForLandPostAllotment(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto coInspectionSubmit(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPrePostAllotmentList(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPostAllotmentList(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPostAllotmentCompletedList(LandPostAllotmentDto landPlotAllotmentDto);
+//	LandPostAllotmentResponseDto fetchPostAllotmentPendingListDetails(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPostAllotmentPendingPlotDetails(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPostAllotmentCompletedPlot(LandPostAllotmentDto landPlotAllotmentDto);
+
+	LandPostAllotmentResponseDto fetchPostAllotmentListDetails(LandPostAllotmentDto landPlotAllotmentDto);
+
+}

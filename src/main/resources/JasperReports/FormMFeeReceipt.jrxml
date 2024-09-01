@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="380" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1ac9bb4a-c72a-45bc-8835-c4d8d4f895bf">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<field name="transactionNo" class="java.lang.String"/>
+	<field name="amountPaid" class="java.math.BigDecimal"/>
+	<field name="receiptNo" class="java.lang.String"/>
+	<field name="paymantMethod" class="java.lang.String"/>
+	<field name="applicantName" class="java.lang.String"/>
+	<field name="paymantDate" class="java.lang.String"/>
+	<field name="districtName" class="java.lang.String"/>
+	<field name="tahasilName" class="java.lang.String"/>
+	<field name="mouzaName" class="java.lang.String"/>
+	<field name="khataNo" class="java.lang.String"/>
+	<field name="plotNo" class="java.lang.String"/>
+	<field name="addressLine2" class="java.lang.String"/>
+	<title>
+		<band height="337">
+			<staticText>
+				<reportElement x="130" y="10" width="291" height="31" uuid="9dc529d0-7815-4875-aaa2-88d3233f437b"/>
+				<textElement>
+					<font size="20" isBold="true" isItalic="false" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[APPLICATION FEE RECEIPT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="64" width="100" height="20" uuid="a7b3364e-792e-4565-8e65-efd8bd5e96d3"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date of Payment: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="119" y="82" width="142" height="1" uuid="c3fae875-e3b3-4f15-a69d-cda22ab02099"/>
+			</line>
+			<staticText>
+				<reportElement x="280" y="62" width="72" height="20" uuid="6e6636e4-503b-4cbc-914a-aaf10e3ebfd7"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Receipt No.: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="400" y="83" width="134" height="1" uuid="a2d6735c-ac63-46e6-8849-67b38e9e9a75"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="100" width="115" height="20" uuid="87f4322f-f1a7-4d39-a7c5-acb6a94584b0"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Amount Paid (INR): ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="100" width="108" height="20" uuid="675c2d98-2234-42c1-9924-c7887a31f5f1"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payment Method: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="400" y="119" width="134" height="1" uuid="bc62af89-fcde-4fbe-a941-1cb294590e9a"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="140" width="104" height="20" uuid="efc817a9-90aa-4444-9f04-da48b036e9db"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Transaction No.:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="119" y="159" width="142" height="1" uuid="b3ae6208-b1e3-4a18-847b-5516f31534f2"/>
+			</line>
+			<line>
+				<reportElement x="0" y="190" width="556" height="1" uuid="93a111d0-3cb8-456e-9736-e1ccf548593e"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="119" y="117" width="142" height="1" uuid="36ad66f4-3681-4ed8-8700-23f8835e3d5e"/>
+			</line>
+			<line>
+				<reportElement x="119" y="278" width="416" height="3" uuid="3b2ac0a4-10f9-479a-8187-82a55bc58a83"/>
+			</line>
+			<staticText>
+				<reportElement x="3" y="220" width="116" height="20" uuid="568e29b2-2f8f-4a6d-ab8c-6528463b35ac"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Property Address: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="119" y="240" width="416" height="1" uuid="8ee88887-4399-4615-b338-9fe7063d403c"/>
+			</line>
+			<line>
+				<reportElement x="119" y="320" width="416" height="1" uuid="61616a59-75ac-4619-8332-2afa5dcf5aa8"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="300" width="104" height="20" uuid="50b72bbd-27fb-4dab-93a4-a335d0178aa7"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Applicant Name :  ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="123" y="301" width="219" height="19" uuid="7141967c-3839-431c-aca8-74af5950925c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{applicantName}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="400" y="56" width="135" height="22" uuid="42845c72-9ec6-47aa-80bd-8dc98df53e92"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{receiptNo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="120" y="62" width="141" height="20" uuid="af3ecba0-7aab-4031-9cb8-c8ad35f517a4"/>
+				<textElement textAlignment="Left">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paymantDate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="400" y="97" width="135" height="22" uuid="8f42a62c-a6b1-4607-bbec-2c3591fd3518"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Online]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="119" y="139" width="142" height="17" uuid="24a36663-96c5-4d09-8df0-47692cfea172"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{transactionNo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="119" y="100" width="141" height="16" uuid="b4935c48-e9d6-4667-9ff0-a7c5b08f708f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amountPaid}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="555" y="0" width="1" height="337" uuid="0438783e-83f3-4aa5-94c8-6e32e8e44c47"/>
+			</line>
+			<line>
+				<reportElement x="0" y="0" width="1" height="336" uuid="3335bca3-f16f-4b27-bed2-4e96476ed9e3"/>
+			</line>
+			<line>
+				<reportElement x="0" y="1" width="556" height="1" uuid="69ddf29f-d77b-4d5a-801d-c0509cc1893b"/>
+			</line>
+			<line>
+				<reportElement x="0" y="336" width="555" height="1" uuid="df398016-6268-4d28-90e5-fc203f40515c"/>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="123" y="260" width="412" height="18" uuid="30760cd7-cb27-4bec-9892-249f2adba61e"/>
+				<textFieldExpression><![CDATA[$F{addressLine2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="123" y="219" width="50" height="18" uuid="8821ab94-c205-4600-b862-6a31b893ee8e"/>
+				<text><![CDATA[Plot No.:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="180" y="219" width="100" height="15" uuid="cc40a956-fd81-4efa-8d34-0bd6ceaa6f65"/>
+				<textFieldExpression><![CDATA[$F{plotNo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="330" y="219" width="50" height="18" uuid="a2ba1365-0e7b-4341-8eac-179767bf34c8"/>
+				<text><![CDATA[Khata No.:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="387" y="220" width="100" height="16" uuid="26c2cee7-7911-4055-8d92-5c64bc9ff604"/>
+				<textFieldExpression><![CDATA[$F{khataNo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>
